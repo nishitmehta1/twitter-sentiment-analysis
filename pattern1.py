@@ -28,7 +28,6 @@ with open('sentiment.csv', 'w', newline='\n') as  f:
     writer.writeheader()
     for tweet in tweets:
         text = tweet.text
-        # Cleaning tweet
         cleanedtext = ' '.join( [word for word in text.split(' ') if len(word) > 0 and word[0] != '@' and word[0] != '.' and word[0] != '#' and 'http' not in word and word != 'RT'] )
 
         analysis = TextBlob(cleanedtext)
