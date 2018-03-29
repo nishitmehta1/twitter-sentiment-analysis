@@ -10,11 +10,11 @@ else:
     print("By default topic is Trump.")
     topic = "Trump"
 
-consumer_key = 'tVkD4eg1gcMNyRQTcnB2rtC0z'
-consumer_secret = 'rdUvDluqCXfXwf3u50I0PRXDEjxamFtQ9qjsSWaAEQfRzrezd7'
+consumer_key = 'tVkD4eg1gcMNyRQTcnB2zxC0z'
+consumer_secret = 'rdUvDluqCXfXwf3u50I0ASXDEjxamFtQ9qjsSWaAEQfRzrezd7'
 
-access_token = '923922799919616000-yhpVboR412PZep2o2pN3T2GInlLSOOa'
-access_token_secret = 'oF8sibIMzgN0IHLHGALzhQISrqcnOenpiFndYgALM2Eqy'
+access_token = '923922799919616000-yhpVboR232PZep2o2pN3T2GInlLSOOa'
+access_token_secret = 'oF8sibIMzgN0IHLHGALzhQIDrqcnOenpiFndYgALM2Eqy'
 
 authenticate = tweepy.OAuthHandler(consumer_key, consumer_secret)
 authenticate.set_access_token(access_token, access_token_secret)
